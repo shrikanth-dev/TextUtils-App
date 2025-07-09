@@ -39,7 +39,7 @@ function App() {
   
   return (
     <>
-  <Router>
+  <Router basename="/TextUtils-App">
 <Navbar title = "TextUtils" mode={mode} toggleMode={toggleMode}/>
 <div className = "container">
 <Alert alert= {alert}/>
